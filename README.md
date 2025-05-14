@@ -74,12 +74,6 @@ cd claude-desktop-debian
 
 The script checks dependencies, extracts resources from the Windows release, and produces a native `.deb` or portable `.AppImage` package — perfect for integrating with your MCP agents.
 
-## 🤝 Contributing
-
-* Fork & clone this repo.
-* Follow the coding conventions in `/template-mcp`.
-* Submit a pull request referencing the tool you’ve wrapped.
-
 ## 📜 License & credits
 
 Original MCP server code is MIT‑licensed © [Cyproxio](https://github.com/cyproxio). Additional wrappers in this fork inherit the same license unless noted otherwise.
