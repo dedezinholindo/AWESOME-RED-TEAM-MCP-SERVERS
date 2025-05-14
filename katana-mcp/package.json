@@ -9,13 +9,19 @@
     "start": "node build/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.1" 
+    "@modelcontextprotocol/sdk": "^0.6.1"          
   },
   "devDependencies": {
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.4",
+    "@types/node": "^20.12.3"                     
   },
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["mcp", "katana", "projectdiscovery", "crawler"]
+  "keywords": [
+    "mcp",
+    "katana",
+    "projectdiscovery",
+    "crawler"
+  ]
 }
