@@ -1,0 +1,21 @@
+{
+  "name": "katana-mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for ProjectDiscovery Katana",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.1"  // official TS SDK :contentReference[oaicite:2]{index=2}
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "katana", "projectdiscovery", "crawler"]
+}
